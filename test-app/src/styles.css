@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+.page-wrapper{
+    background-color: #f2f7f8;
+}
+.navbar{
+    background: #363d4a;
+}
+.container{
+    padding: 20px;
+}
+
+.card-block {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.navbar-brand{
+    color: #fff;
+}
+.card-title {
+    margin-bottom: 0.75rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #2c2b2e;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+}
+h4 {
+    line-height: 22px;
+    font-size: 18px;
+}
+.separator{
+    margin-bottom:20px; 
+}
+
+.table td {
+    padding: 0.20rem;
+}

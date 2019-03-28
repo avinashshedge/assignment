@@ -1,0 +1,11 @@
+
+    <h4 class="card-title">Albums</h4>
+    <div>
+      <input type="button" class="btn btn-primary" value="Back to User" routerLink="/users" />
+    </div> 
+    <div class="separator"></div>
+    <div class="row">
+      <div class="column" *ngFor="let album of albums;let i= index;">
+        <div class="card" (click)="viewPhoto(album)" style="cursor:pointer">{{album.title}}</div>
+      </div>
+    </div>

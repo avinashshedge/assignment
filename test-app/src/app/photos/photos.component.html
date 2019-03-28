@@ -1,0 +1,14 @@
+
+    <h4 class="card-title">Photos</h4>
+    <div>
+      <input type="button" class="btn btn-primary" value="Back to Album" (click)="onBack()" />
+    </div> 
+    <div class="separator"></div>
+    <div class="row">
+      <div class="column" *ngFor="let photo of photos;let i= index;">
+        <div class="card" style="margin:10px;">
+          <img src="{{photo.url}}" height="200px;" width="250px;">
+          <span style="margin-top:10px;width:250px;text-align: center;">{{photo.title}}</span>
+          </div>
+      </div>
+    </div>
